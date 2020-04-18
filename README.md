@@ -35,7 +35,7 @@ python src/teaser_gen.py -e resources/model_s2s_vanilla
 ```
 Train baseline pointer seq2seq model
 ```
-python src/teaser_gen.py -e resources/model_s2s_pointer 
+python src/teaser_gen.py -e resources/model_s2s_pointer --pointer
 ```  
 #### For more details, check out our paper:
 - SK Karn, M Buckley, U Waltinger, H Sch{\"u}tze. [News Article Teaser Tweets and How to Generate Them](https://www.aclweb.org/anthology/N19-1398.pdf).
